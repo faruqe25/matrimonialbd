@@ -1,248 +1,893 @@
 [
   {
-    "name": "John Doe",
-    "profession": "Software Engineer",
+    "isSelected": true,
+    "matrimonialBiodataId": 5,
+    "lookingFor": "Partner with a love for adventure",
+    "name": "Robert Johnson",
+    "age": 35,
     "gender": "Male",
-    "location": "New York"
+    "height": "6'2\"",
+    "weight": "80 kg",
+    "religion": "Christian",
+    "caste": "General",
+    "nationality": "British",
+    "presentCity": "London",
+    "presentState": "England",
+    "presentCountry": "United Kingdom",
+    "permanentCity": "Manchester",
+    "permanentPresentState": "England",
+    "permanentPresentCountry": "United Kingdom",
+    "placeOfBirth": "Birmingham",
+    "languages": ["English", "French"],
+    "email": "robertj@example.com",
+    "phone": "1122334455",
+    "isApproved": true,
+    "occupation": {
+      "occupationId": 5,
+      "jobTitle": "Marketing Director",
+      "company": "Global Innovations",
+      "location": "London",
+      "annualIncome": 120000,
+      "matrimonialBiodataId": 5
+    },
+    "familyBackground": "Affluent family with a strong entrepreneurial background.",
+    "partnerPreferences": "Looking for someone adventurous with a love for travel.",
+    "educations": [
+      {
+        "educationId": 1,
+        "degree": "MBA",
+        "subject": "Marketing",
+        "university": "Harvard University",
+        "year": 2014,
+        "matrimonialBiodataId": 5
+      }
+    ],
+    "matrimonialBiodataViews": [
+      {
+        "matrimonialBiodataViewsId": 5,
+        "showInterest": true,
+        "viewDate": "2025-01-15",
+        "matrimonialUserId": 6,
+        "matrimonialBiodataId": 5,
+        "isCreator": false,
+        "creationDate": "2025-01-15"
+      }
+    ],
+    "hobbies": ["Hiking", "Traveling", "Photography"],
+    "personality": "Outgoing, adventurous, and creative.",
+    "chatId": 1005,
+    "userName": "robertjohnson"
   },
   {
-    "name": "Jane Smith",
-    "profession": "Doctor",
+    "isSelected": false,
+    "matrimonialBiodataId": 6,
+    "lookingFor": "Partner who enjoys a quiet life",
+    "name": "Emily Clark",
+    "age": 29,
     "gender": "Female",
-    "location": "Los Angeles"
+    "height": "5'4\"",
+    "weight": "55 kg",
+    "religion": "Jewish",
+    "caste": "Ashkenazi",
+    "nationality": "American",
+    "presentCity": "Los Angeles",
+    "presentState": "California",
+    "presentCountry": "USA",
+    "permanentCity": "San Francisco",
+    "permanentPresentState": "California",
+    "permanentPresentCountry": "USA",
+    "placeOfBirth": "Chicago",
+    "languages": ["English", "Hebrew"],
+    "email": "emilyc@example.com",
+    "phone": "2233445566",
+    "isApproved": true,
+    "occupation": {
+      "occupationId": 6,
+      "jobTitle": "Graphic Designer",
+      "company": "Creative Arts Inc.",
+      "location": "Los Angeles",
+      "annualIncome": 45000,
+      "matrimonialBiodataId": 6
+    },
+    "familyBackground": "Close-knit family with a strong cultural heritage.",
+    "partnerPreferences": "Looking for a gentle and understanding partner.",
+    "educations": [
+      {
+        "educationId": 1,
+        "degree": "BFA",
+        "subject": "Graphic Design",
+        "university": "University of California",
+        "year": 2017,
+        "matrimonialBiodataId": 6
+      }
+    ],
+    "matrimonialBiodataViews": [
+      {
+        "matrimonialBiodataViewsId": 6,
+        "showInterest": false,
+        "viewDate": "2025-01-18",
+        "matrimonialUserId": 7,
+        "matrimonialBiodataId": 6,
+        "isCreator": false,
+        "creationDate": "2025-01-18"
+      }
+    ],
+    "hobbies": ["Painting", "Reading", "Baking"],
+    "personality": "Introverted, artistic, and thoughtful.",
+    "chatId": 1006,
+    "userName": "emilyclark"
   },
   {
-    "name": "Alex Johnson",
-    "profession": "Teacher",
+    "isSelected": true,
+    "matrimonialBiodataId": 7,
+    "lookingFor": "Partner who values honesty",
+    "name": "Michael Brown",
+    "age": 33,
     "gender": "Male",
-    "location": "Chicago"
+    "height": "5'9\"",
+    "weight": "70 kg",
+    "religion": "Christian",
+    "caste": "General",
+    "nationality": "Canadian",
+    "presentCity": "Vancouver",
+    "presentState": "British Columbia",
+    "presentCountry": "Canada",
+    "permanentCity": "Toronto",
+    "permanentPresentState": "Ontario",
+    "permanentPresentCountry": "Canada",
+    "placeOfBirth": "Ottawa",
+    "languages": ["English", "French"],
+    "email": "michaelb@example.com",
+    "phone": "3344556677",
+    "isApproved": true,
+    "occupation": {
+      "occupationId": 7,
+      "jobTitle": "Project Manager",
+      "company": "Tech Innovators",
+      "location": "Vancouver",
+      "annualIncome": 95000,
+      "matrimonialBiodataId": 7
+    },
+    "familyBackground": "Family-oriented with a focus on values and integrity.",
+    "partnerPreferences": "Looking for a genuine and honest person.",
+    "educations": [
+      {
+        "educationId": 1,
+        "degree": "BEng",
+        "subject": "Electrical Engineering",
+        "university": "University of Toronto",
+        "year": 2014,
+        "matrimonialBiodataId": 7
+      }
+    ],
+    "matrimonialBiodataViews": [
+      {
+        "matrimonialBiodataViewsId": 7,
+        "showInterest": true,
+        "viewDate": "2025-01-17",
+        "matrimonialUserId": 8,
+        "matrimonialBiodataId": 7,
+        "isCreator": false,
+        "creationDate": "2025-01-17"
+      }
+    ],
+    "hobbies": ["Swimming", "Cycling", "Running"],
+    "personality": "Ambitious, honest, and disciplined.",
+    "chatId": 1007,
+    "userName": "michaelbrown"
   },
   {
-    "name": "Emily Brown",
-    "profession": "Marketing Manager",
+    "isSelected": false,
+    "matrimonialBiodataId": 8,
+    "lookingFor": "Partner who is intelligent and ambitious",
+    "name": "Sophie Lee",
+    "age": 26,
     "gender": "Female",
-    "location": "San Francisco"
+    "height": "5'7\"",
+    "weight": "58 kg",
+    "religion": "Buddhist",
+    "caste": "General",
+    "nationality": "Singaporean",
+    "presentCity": "Singapore",
+    "presentState": "Central",
+    "presentCountry": "Singapore",
+    "permanentCity": "Singapore",
+    "permanentPresentState": "Central",
+    "permanentPresentCountry": "Singapore",
+    "placeOfBirth": "Singapore",
+    "languages": ["English", "Mandarin"],
+    "email": "sophie@example.com",
+    "phone": "4455667788",
+    "isApproved": true,
+    "occupation": {
+      "occupationId": 8,
+      "jobTitle": "Data Analyst",
+      "company": "Tech Analytics",
+      "location": "Singapore",
+      "annualIncome": 70000,
+      "matrimonialBiodataId": 8
+    },
+    "familyBackground": "Middle-class family with a focus on education.",
+    "partnerPreferences": "Looking for a motivated and intelligent person.",
+    "educations": [
+      {
+        "educationId": 1,
+        "degree": "BSc in Data Science",
+        "subject": "Data Science",
+        "university": "National University of Singapore",
+        "year": 2017,
+        "matrimonialBiodataId": 8
+      }
+    ],
+    "matrimonialBiodataViews": [
+      {
+        "matrimonialBiodataViewsId": 8,
+        "showInterest": false,
+        "viewDate": "2025-01-14",
+        "matrimonialUserId": 9,
+        "matrimonialBiodataId": 8,
+        "isCreator": false,
+        "creationDate": "2025-01-14"
+      }
+    ],
+    "hobbies": ["Traveling", "Reading", "Cycling"],
+    "personality": "Smart, independent, and caring.",
+    "chatId": 1008,
+    "userName": "sophielee"
   },
   {
-    "name": "Michael Lee",
-    "profession": "Accountant",
+    "isSelected": true,
+    "matrimonialBiodataId": 9,
+    "lookingFor": "Partner with strong family values",
+    "name": "Rajesh Kumar",
+    "age": 32,
     "gender": "Male",
-    "location": "Houston"
+    "height": "5'8\"",
+    "weight": "74 kg",
+    "religion": "Hindu",
+    "caste": "Rajput",
+    "nationality": "Indian",
+    "presentCity": "Bangalore",
+    "presentState": "Karnataka",
+    "presentCountry": "India",
+    "permanentCity": "Delhi",
+    "permanentPresentState": "Delhi",
+    "permanentPresentCountry": "India",
+    "placeOfBirth": "Gurgaon",
+    "languages": ["Hindi", "English"],
+    "email": "rajeshkumar@example.com",
+    "phone": "9988776655",
+    "isApproved": true,
+    "occupation": {
+      "occupationId": 9,
+      "jobTitle": "Senior Consultant",
+      "company": "Consulting Partners",
+      "location": "Bangalore",
+      "annualIncome": 120000,
+      "matrimonialBiodataId": 9
+    },
+    "familyBackground": "Family-oriented with a strong cultural heritage.",
+    "partnerPreferences": "Looking for someone who values family and tradition.",
+    "educations": [
+      {
+        "educationId": 1,
+        "degree": "MBA",
+        "subject": "Management",
+        "university": "Indian Institute of Management",
+        "year": 2016,
+        "matrimonialBiodataId": 9
+      }
+    ],
+    "matrimonialBiodataViews": [
+      {
+        "matrimonialBiodataViewsId": 9,
+        "showInterest": true,
+        "viewDate": "2025-01-16",
+        "matrimonialUserId": 10,
+        "matrimonialBiodataId": 9,
+        "isCreator": false,
+        "creationDate": "2025-01-16"
+      }
+    ],
+    "hobbies": ["Cricket", "Reading", "Traveling"],
+    "personality": "Responsible, traditional, and caring.",
+    "chatId": 1009,
+    "userName": "rajeshkumar"
+  },
+
+
+
+  {
+    "isSelected": true,
+    "matrimonialBiodataId": 5,
+    "lookingFor": "Partner with a love for adventure",
+    "name": "Robert Johnson",
+    "age": 35,
+    "gender": "Male",
+    "height": "6'2\"",
+    "weight": "80 kg",
+    "religion": "Christian",
+    "caste": "General",
+    "nationality": "British",
+    "presentCity": "London",
+    "presentState": "England",
+    "presentCountry": "United Kingdom",
+    "permanentCity": "Manchester",
+    "permanentPresentState": "England",
+    "permanentPresentCountry": "United Kingdom",
+    "placeOfBirth": "Birmingham",
+    "languages": ["English", "French"],
+    "email": "robertj@example.com",
+    "phone": "1122334455",
+    "isApproved": true,
+    "occupation": {
+      "occupationId": 5,
+      "jobTitle": "Marketing Director",
+      "company": "Global Innovations",
+      "location": "London",
+      "annualIncome": 120000,
+      "matrimonialBiodataId": 5
+    },
+    "familyBackground": "Affluent family with a strong entrepreneurial background.",
+    "partnerPreferences": "Looking for someone adventurous with a love for travel.",
+    "educations": [
+      {
+        "educationId": 1,
+        "degree": "MBA",
+        "subject": "Marketing",
+        "university": "Harvard University",
+        "year": 2014,
+        "matrimonialBiodataId": 5
+      }
+    ],
+    "matrimonialBiodataViews": [
+      {
+        "matrimonialBiodataViewsId": 5,
+        "showInterest": true,
+        "viewDate": "2025-01-15",
+        "matrimonialUserId": 6,
+        "matrimonialBiodataId": 5,
+        "isCreator": false,
+        "creationDate": "2025-01-15"
+      }
+    ],
+    "hobbies": ["Hiking", "Traveling", "Photography"],
+    "personality": "Outgoing, adventurous, and creative.",
+    "chatId": 1005,
+    "userName": "robertjohnson"
   },
   {
-    "name": "Sarah Wilson",
-    "profession": "Graphic Designer",
+    "isSelected": false,
+    "matrimonialBiodataId": 6,
+    "lookingFor": "Partner who enjoys a quiet life",
+    "name": "Emily Clark",
+    "age": 29,
     "gender": "Female",
-    "location": "Seattle"
+    "height": "5'4\"",
+    "weight": "55 kg",
+    "religion": "Jewish",
+    "caste": "Ashkenazi",
+    "nationality": "American",
+    "presentCity": "Los Angeles",
+    "presentState": "California",
+    "presentCountry": "USA",
+    "permanentCity": "San Francisco",
+    "permanentPresentState": "California",
+    "permanentPresentCountry": "USA",
+    "placeOfBirth": "Chicago",
+    "languages": ["English", "Hebrew"],
+    "email": "emilyc@example.com",
+    "phone": "2233445566",
+    "isApproved": true,
+    "occupation": {
+      "occupationId": 6,
+      "jobTitle": "Graphic Designer",
+      "company": "Creative Arts Inc.",
+      "location": "Los Angeles",
+      "annualIncome": 45000,
+      "matrimonialBiodataId": 6
+    },
+    "familyBackground": "Close-knit family with a strong cultural heritage.",
+    "partnerPreferences": "Looking for a gentle and understanding partner.",
+    "educations": [
+      {
+        "educationId": 1,
+        "degree": "BFA",
+        "subject": "Graphic Design",
+        "university": "University of California",
+        "year": 2017,
+        "matrimonialBiodataId": 6
+      }
+    ],
+    "matrimonialBiodataViews": [
+      {
+        "matrimonialBiodataViewsId": 6,
+        "showInterest": false,
+        "viewDate": "2025-01-18",
+        "matrimonialUserId": 7,
+        "matrimonialBiodataId": 6,
+        "isCreator": false,
+        "creationDate": "2025-01-18"
+      }
+    ],
+    "hobbies": ["Painting", "Reading", "Baking"],
+    "personality": "Introverted, artistic, and thoughtful.",
+    "chatId": 1006,
+    "userName": "emilyclark"
   },
   {
-    "name": "Daniel Martinez",
-    "profession": "Chef",
+    "isSelected": true,
+    "matrimonialBiodataId": 7,
+    "lookingFor": "Partner who values honesty",
+    "name": "Michael Brown",
+    "age": 33,
     "gender": "Male",
-    "location": "Miami"
+    "height": "5'9\"",
+    "weight": "70 kg",
+    "religion": "Christian",
+    "caste": "General",
+    "nationality": "Canadian",
+    "presentCity": "Vancouver",
+    "presentState": "British Columbia",
+    "presentCountry": "Canada",
+    "permanentCity": "Toronto",
+    "permanentPresentState": "Ontario",
+    "permanentPresentCountry": "Canada",
+    "placeOfBirth": "Ottawa",
+    "languages": ["English", "French"],
+    "email": "michaelb@example.com",
+    "phone": "3344556677",
+    "isApproved": true,
+    "occupation": {
+      "occupationId": 7,
+      "jobTitle": "Project Manager",
+      "company": "Tech Innovators",
+      "location": "Vancouver",
+      "annualIncome": 95000,
+      "matrimonialBiodataId": 7
+    },
+    "familyBackground": "Family-oriented with a focus on values and integrity.",
+    "partnerPreferences": "Looking for a genuine and honest person.",
+    "educations": [
+      {
+        "educationId": 1,
+        "degree": "BEng",
+        "subject": "Electrical Engineering",
+        "university": "University of Toronto",
+        "year": 2014,
+        "matrimonialBiodataId": 7
+      }
+    ],
+    "matrimonialBiodataViews": [
+      {
+        "matrimonialBiodataViewsId": 7,
+        "showInterest": true,
+        "viewDate": "2025-01-17",
+        "matrimonialUserId": 8,
+        "matrimonialBiodataId": 7,
+        "isCreator": false,
+        "creationDate": "2025-01-17"
+      }
+    ],
+    "hobbies": ["Swimming", "Cycling", "Running"],
+    "personality": "Ambitious, honest, and disciplined.",
+    "chatId": 1007,
+    "userName": "michaelbrown"
   },
   {
-    "name": "Jessica Taylor",
-    "profession": "Lawyer",
+    "isSelected": false,
+    "matrimonialBiodataId": 8,
+    "lookingFor": "Partner who is intelligent and ambitious",
+    "name": "Sophie Lee",
+    "age": 26,
     "gender": "Female",
-    "location": "Boston"
+    "height": "5'7\"",
+    "weight": "58 kg",
+    "religion": "Buddhist",
+    "caste": "General",
+    "nationality": "Singaporean",
+    "presentCity": "Singapore",
+    "presentState": "Central",
+    "presentCountry": "Singapore",
+    "permanentCity": "Singapore",
+    "permanentPresentState": "Central",
+    "permanentPresentCountry": "Singapore",
+    "placeOfBirth": "Singapore",
+    "languages": ["English", "Mandarin"],
+    "email": "sophie@example.com",
+    "phone": "4455667788",
+    "isApproved": true,
+    "occupation": {
+      "occupationId": 8,
+      "jobTitle": "Data Analyst",
+      "company": "Tech Analytics",
+      "location": "Singapore",
+      "annualIncome": 70000,
+      "matrimonialBiodataId": 8
+    },
+    "familyBackground": "Middle-class family with a focus on education.",
+    "partnerPreferences": "Looking for a motivated and intelligent person.",
+    "educations": [
+      {
+        "educationId": 1,
+        "degree": "BSc in Data Science",
+        "subject": "Data Science",
+        "university": "National University of Singapore",
+        "year": 2017,
+        "matrimonialBiodataId": 8
+      }
+    ],
+    "matrimonialBiodataViews": [
+      {
+        "matrimonialBiodataViewsId": 8,
+        "showInterest": false,
+        "viewDate": "2025-01-14",
+        "matrimonialUserId": 9,
+        "matrimonialBiodataId": 8,
+        "isCreator": false,
+        "creationDate": "2025-01-14"
+      }
+    ],
+    "hobbies": ["Traveling", "Reading", "Cycling"],
+    "personality": "Smart, independent, and caring.",
+    "chatId": 1008,
+    "userName": "sophielee"
   },
   {
-    "name": "David Anderson",
-    "profession": "Architect",
+    "isSelected": true,
+    "matrimonialBiodataId": 9,
+    "lookingFor": "Partner with strong family values",
+    "name": "Rajesh Kumar",
+    "age": 32,
     "gender": "Male",
-    "location": "Atlanta"
+    "height": "5'8\"",
+    "weight": "74 kg",
+    "religion": "Hindu",
+    "caste": "Rajput",
+    "nationality": "Indian",
+    "presentCity": "Bangalore",
+    "presentState": "Karnataka",
+    "presentCountry": "India",
+    "permanentCity": "Delhi",
+    "permanentPresentState": "Delhi",
+    "permanentPresentCountry": "India",
+    "placeOfBirth": "Gurgaon",
+    "languages": ["Hindi", "English"],
+    "email": "rajeshkumar@example.com",
+    "phone": "9988776655",
+    "isApproved": true,
+    "occupation": {
+      "occupationId": 9,
+      "jobTitle": "Senior Consultant",
+      "company": "Consulting Partners",
+      "location": "Bangalore",
+      "annualIncome": 120000,
+      "matrimonialBiodataId": 9
+    },
+    "familyBackground": "Family-oriented with a strong cultural heritage.",
+    "partnerPreferences": "Looking for someone who values family and tradition.",
+    "educations": [
+      {
+        "educationId": 1,
+        "degree": "MBA",
+        "subject": "Management",
+        "university": "Indian Institute of Management",
+        "year": 2016,
+        "matrimonialBiodataId": 9
+      }
+    ],
+    "matrimonialBiodataViews": [
+      {
+        "matrimonialBiodataViewsId": 9,
+        "showInterest": true,
+        "viewDate": "2025-01-16",
+        "matrimonialUserId": 10,
+        "matrimonialBiodataId": 9,
+        "isCreator": false,
+        "creationDate": "2025-01-16"
+      }
+    ],
+    "hobbies": ["Cricket", "Reading", "Traveling"],
+    "personality": "Responsible, traditional, and caring.",
+    "chatId": 1009,
+    "userName": "rajeshkumar"
+  }
+,
+  {
+    "isSelected": true,
+    "matrimonialBiodataId": 5,
+    "lookingFor": "Partner with a love for adventure",
+    "name": "Robert Johnson",
+    "age": 35,
+    "gender": "Male",
+    "height": "6'2\"",
+    "weight": "80 kg",
+    "religion": "Christian",
+    "caste": "General",
+    "nationality": "British",
+    "presentCity": "London",
+    "presentState": "England",
+    "presentCountry": "United Kingdom",
+    "permanentCity": "Manchester",
+    "permanentPresentState": "England",
+    "permanentPresentCountry": "United Kingdom",
+    "placeOfBirth": "Birmingham",
+    "languages": ["English", "French"],
+    "email": "robertj@example.com",
+    "phone": "1122334455",
+    "isApproved": true,
+    "occupation": {
+      "occupationId": 5,
+      "jobTitle": "Marketing Director",
+      "company": "Global Innovations",
+      "location": "London",
+      "annualIncome": 120000,
+      "matrimonialBiodataId": 5
+    },
+    "familyBackground": "Affluent family with a strong entrepreneurial background.",
+    "partnerPreferences": "Looking for someone adventurous with a love for travel.",
+    "educations": [
+      {
+        "educationId": 1,
+        "degree": "MBA",
+        "subject": "Marketing",
+        "university": "Harvard University",
+        "year": 2014,
+        "matrimonialBiodataId": 5
+      }
+    ],
+    "matrimonialBiodataViews": [
+      {
+        "matrimonialBiodataViewsId": 5,
+        "showInterest": true,
+        "viewDate": "2025-01-15",
+        "matrimonialUserId": 6,
+        "matrimonialBiodataId": 5,
+        "isCreator": false,
+        "creationDate": "2025-01-15"
+      }
+    ],
+    "hobbies": ["Hiking", "Traveling", "Photography"],
+    "personality": "Outgoing, adventurous, and creative.",
+    "chatId": 1005,
+    "userName": "robertjohnson"
   },
   {
-    "name": "Amanda Rodriguez",
-    "profession": "Journalist",
+    "isSelected": false,
+    "matrimonialBiodataId": 6,
+    "lookingFor": "Partner who enjoys a quiet life",
+    "name": "Emily Clark",
+    "age": 29,
     "gender": "Female",
-    "location": "Washington D.C."
+    "height": "5'4\"",
+    "weight": "55 kg",
+    "religion": "Jewish",
+    "caste": "Ashkenazi",
+    "nationality": "American",
+    "presentCity": "Los Angeles",
+    "presentState": "California",
+    "presentCountry": "USA",
+    "permanentCity": "San Francisco",
+    "permanentPresentState": "California",
+    "permanentPresentCountry": "USA",
+    "placeOfBirth": "Chicago",
+    "languages": ["English", "Hebrew"],
+    "email": "emilyc@example.com",
+    "phone": "2233445566",
+    "isApproved": true,
+    "occupation": {
+      "occupationId": 6,
+      "jobTitle": "Graphic Designer",
+      "company": "Creative Arts Inc.",
+      "location": "Los Angeles",
+      "annualIncome": 45000,
+      "matrimonialBiodataId": 6
+    },
+    "familyBackground": "Close-knit family with a strong cultural heritage.",
+    "partnerPreferences": "Looking for a gentle and understanding partner.",
+    "educations": [
+      {
+        "educationId": 1,
+        "degree": "BFA",
+        "subject": "Graphic Design",
+        "university": "University of California",
+        "year": 2017,
+        "matrimonialBiodataId": 6
+      }
+    ],
+    "matrimonialBiodataViews": [
+      {
+        "matrimonialBiodataViewsId": 6,
+        "showInterest": false,
+        "viewDate": "2025-01-18",
+        "matrimonialUserId": 7,
+        "matrimonialBiodataId": 6,
+        "isCreator": false,
+        "creationDate": "2025-01-18"
+      }
+    ],
+    "hobbies": ["Painting", "Reading", "Baking"],
+    "personality": "Introverted, artistic, and thoughtful.",
+    "chatId": 1006,
+    "userName": "emilyclark"
   },
   {
-    "name": "Robert Garcia",
-    "profession": "Engineer",
+    "isSelected": true,
+    "matrimonialBiodataId": 7,
+    "lookingFor": "Partner who values honesty",
+    "name": "Michael Brown",
+    "age": 33,
     "gender": "Male",
-    "location": "San Diego"
+    "height": "5'9\"",
+    "weight": "70 kg",
+    "religion": "Christian",
+    "caste": "General",
+    "nationality": "Canadian",
+    "presentCity": "Vancouver",
+    "presentState": "British Columbia",
+    "presentCountry": "Canada",
+    "permanentCity": "Toronto",
+    "permanentPresentState": "Ontario",
+    "permanentPresentCountry": "Canada",
+    "placeOfBirth": "Ottawa",
+    "languages": ["English", "French"],
+    "email": "michaelb@example.com",
+    "phone": "3344556677",
+    "isApproved": true,
+    "occupation": {
+      "occupationId": 7,
+      "jobTitle": "Project Manager",
+      "company": "Tech Innovators",
+      "location": "Vancouver",
+      "annualIncome": 95000,
+      "matrimonialBiodataId": 7
+    },
+    "familyBackground": "Family-oriented with a focus on values and integrity.",
+    "partnerPreferences": "Looking for a genuine and honest person.",
+    "educations": [
+      {
+        "educationId": 1,
+        "degree": "BEng",
+        "subject": "Electrical Engineering",
+        "university": "University of Toronto",
+        "year": 2014,
+        "matrimonialBiodataId": 7
+      }
+    ],
+    "matrimonialBiodataViews": [
+      {
+        "matrimonialBiodataViewsId": 7,
+        "showInterest": true,
+        "viewDate": "2025-01-17",
+        "matrimonialUserId": 8,
+        "matrimonialBiodataId": 7,
+        "isCreator": false,
+        "creationDate": "2025-01-17"
+      }
+    ],
+    "hobbies": ["Swimming", "Cycling", "Running"],
+    "personality": "Ambitious, honest, and disciplined.",
+    "chatId": 1007,
+    "userName": "michaelbrown"
   },
   {
-    "name": "Rebecca White",
-    "profession": "Artist",
+    "isSelected": false,
+    "matrimonialBiodataId": 8,
+    "lookingFor": "Partner who is intelligent and ambitious",
+    "name": "Sophie Lee",
+    "age": 26,
     "gender": "Female",
-    "location": "Denver"
+    "height": "5'7\"",
+    "weight": "58 kg",
+    "religion": "Buddhist",
+    "caste": "General",
+    "nationality": "Singaporean",
+    "presentCity": "Singapore",
+    "presentState": "Central",
+    "presentCountry": "Singapore",
+    "permanentCity": "Singapore",
+    "permanentPresentState": "Central",
+    "permanentPresentCountry": "Singapore",
+    "placeOfBirth": "Singapore",
+    "languages": ["English", "Mandarin"],
+    "email": "sophie@example.com",
+    "phone": "4455667788",
+    "isApproved": true,
+    "occupation": {
+      "occupationId": 8,
+      "jobTitle": "Data Analyst",
+      "company": "Tech Analytics",
+      "location": "Singapore",
+      "annualIncome": 70000,
+      "matrimonialBiodataId": 8
+    },
+    "familyBackground": "Middle-class family with a focus on education.",
+    "partnerPreferences": "Looking for a motivated and intelligent person.",
+    "educations": [
+      {
+        "educationId": 1,
+        "degree": "BSc in Data Science",
+        "subject": "Data Science",
+        "university": "National University of Singapore",
+        "year": 2017,
+        "matrimonialBiodataId": 8
+      }
+    ],
+    "matrimonialBiodataViews": [
+      {
+        "matrimonialBiodataViewsId": 8,
+        "showInterest": false,
+        "viewDate": "2025-01-14",
+        "matrimonialUserId": 9,
+        "matrimonialBiodataId": 8,
+        "isCreator": false,
+        "creationDate": "2025-01-14"
+      }
+    ],
+    "hobbies": ["Traveling", "Reading", "Cycling"],
+    "personality": "Smart, independent, and caring.",
+    "chatId": 1008,
+    "userName": "sophielee"
   },
   {
-    "name": "Christopher Brown",
-    "profession": "Financial Analyst",
+    "isSelected": true,
+    "matrimonialBiodataId": 9,
+    "lookingFor": "Partner with strong family values",
+    "name": "Rajesh Kumar",
+    "age": 32,
     "gender": "Male",
-    "location": "Philadelphia"
-  },
-  {
-    "name": "Laura Taylor",
-    "profession": "Human Resources Manager",
-    "gender": "Female",
-    "location": "Phoenix"
-  },
-  {
-    "name": "Kevin Martinez",
-    "profession": "Sales Representative",
-    "gender": "Male",
-    "location": "Dallas"
-  },
-  {
-    "name": "Hannah Clark",
-    "profession": "Event Planner",
-    "gender": "Female",
-    "location": "Austin"
-  },
-  {
-    "name": "Andrew Rodriguez",
-    "profession": "Physical Therapist",
-    "gender": "Male",
-    "location": "San Antonio"
-  },
-  {
-    "name": "Olivia Wright",
-    "profession": "Writer",
-    "gender": "Female",
-    "location": "Portland"
-  },
-  {
-    "name": "Matthew Johnson",
-    "profession": "Financial Advisor",
-    "gender": "Male",
-    "location": "San Jose"
-  },
-  {
-    "name": "Stephanie Martinez",
-    "profession": "Dentist",
-    "gender": "Female",
-    "location": "Las Vegas"
-  },
-  {
-    "name": "Justin Nguyen",
-    "profession": "Software Developer",
-    "gender": "Male",
-    "location": "Orlando"
-  },
-  {
-    "name": "Emma Garcia",
-    "profession": "Nurse",
-    "gender": "Female",
-    "location": "Detroit"
-  },
-  {
-    "name": "Nicholas Martinez",
-    "profession": "Police Officer",
-    "gender": "Male",
-    "location": "Miami"
-  },
-  {
-    "name": "Sophia Johnson",
-    "profession": "Pharmacist",
-    "gender": "Female",
-    "location": "Seattle"
-  },
-  {
-    "name": "William Lee",
-    "profession": "Chef",
-    "gender": "Male",
-    "location": "Chicago"
-  },
-  {
-    "name": "Madison Taylor",
-    "profession": "Financial Analyst",
-    "gender": "Female",
-    "location": "New York"
-  },
-  {
-    "name": "Jacob Rodriguez",
-    "profession": "Mechanical Engineer",
-    "gender": "Male",
-    "location": "Los Angeles"
-  },
-  {
-    "name": "Isabella Brown",
-    "profession": "Software Developer",
-    "gender": "Female",
-    "location": "San Francisco"
-  },
-  {
-    "name": "Ethan Martinez",
-    "profession": "Teacher",
-    "gender": "Male",
-    "location": "Dallas"
-  },
-  {
-    "name": "Charlotte Johnson",
-    "profession": "Graphic Designer",
-    "gender": "Female",
-    "location": "Houston"
-  },
-  {
-    "name": "Alexander Smith",
-    "profession": "Lawyer",
-    "gender": "Male",
-    "location": "Atlanta"
-  },
-  {
-    "name": "Ava Wilson",
-    "profession": "Marketing Manager",
-    "gender": "Female",
-    "location": "Boston"
-  },
-  {
-    "name": "Michael Anderson",
-    "profession": "Architect",
-    "gender": "Male",
-    "location": "Denver"
-  },
-  {
-    "name": "Abigail Taylor",
-    "profession": "Journalist",
-    "gender": "Female",
-    "location": "Washington D.C."
-  },
-  {
-    "name": "James Brown",
-    "profession": "Doctor",
-    "gender": "Male",
-    "location": "Philadelphia"
-  },
-  {
-    "name": "Mia Clark",
-    "profession": "Artist",
-    "gender": "Female",
-    "location": "San Diego"
-  },
-  {
-    "name": "Benjamin Rodriguez",
-    "profession": "Financial Advisor",
-    "gender": "Male",
-    "location": "Phoenix"
-  },
-  {
-    "name": "Harper Martinez",
-    "profession": "Human Resources Manager",
-    "gender": "Female",
-    "location": "Portland"
-  },
-  {
-    "name": "Logan Nguyen",
-    "profession": "Sales Representative",
-    "gender": "Male",
-    "location": "Austin"
-  },
-  {
-    "name": "Evelyn Johnson",
-    "profession": "Physical Therapist",
-    "gender": "Female",
-    "location": "Orlando"
-  },
-  {
-    "name": "Daniel Williams",
-    "profession": "Writer",
-    "gender": "Male",
-    "location": "Las Vegas"
+    "height": "5'8\"",
+    "weight": "74 kg",
+    "religion": "Hindu",
+    "caste": "Rajput",
+    "nationality": "Indian",
+    "presentCity": "Bangalore",
+    "presentState": "Karnataka",
+    "presentCountry": "India",
+    "permanentCity": "Delhi",
+    "permanentPresentState": "Delhi",
+    "permanentPresentCountry": "India",
+    "placeOfBirth": "Gurgaon",
+    "languages": ["Hindi", "English"],
+    "email": "rajeshkumar@example.com",
+    "phone": "9988776655",
+    "isApproved": true,
+    "occupation": {
+      "occupationId": 9,
+      "jobTitle": "Senior Consultant",
+      "company": "Consulting Partners",
+      "location": "Bangalore",
+      "annualIncome": 120000,
+      "matrimonialBiodataId": 9
+    },
+    "familyBackground": "Family-oriented with a strong cultural heritage.",
+    "partnerPreferences": "Looking for someone who values family and tradition.",
+    "educations": [
+      {
+        "educationId": 1,
+        "degree": "MBA",
+        "subject": "Management",
+        "university": "Indian Institute of Management",
+        "year": 2016,
+        "matrimonialBiodataId": 9
+      }
+    ],
+    "matrimonialBiodataViews": [
+      {
+        "matrimonialBiodataViewsId": 9,
+        "showInterest": true,
+        "viewDate": "2025-01-16",
+        "matrimonialUserId": 10,
+        "matrimonialBiodataId": 9,
+        "isCreator": false,
+        "creationDate": "2025-01-16"
+      }
+    ],
+    "hobbies": ["Cricket", "Reading", "Traveling"],
+    "personality": "Responsible, traditional, and caring.",
+    "chatId": 1009,
+    "userName": "rajeshkumar"
   }
 ]
+
+
